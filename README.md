@@ -1,6 +1,7 @@
 
 # React Form
-![react+firebase](https://github.com/pyadav40/Firebase-FormAuthentication/assets/109465963/4daa449c-75af-4324-87a3-c9afa4aed16e)
+![react](https://github.com/pyadav40/Firebase-FormAuthentication/assets/109465963/1bbb8d1b-83b8-42c7-bc8d-fa57f8d9d813)
+
 
 React form with validation using formik and yup, authentication using Google Firebase.
 
