@@ -1,0 +1,53 @@
+import "./styles.css";
+import {useState} from 'react'
+export default function App() {
+  let [userdata, setUserData] = useState({email: "", password: "" });
+  let [fbData,setfbData]=useState([])
+  let handleChange = (e) => {
+    setUserData({ ...userdata, [e.target.name]: e.target.value });
+  };
+  
+//  console.log(userdata)
+  let handleSubmit = async (e) => {
+    e.preventDefault()
+    const data =await fetch('https://reactformdata-ae3fa-default-rtdb.firebaseio.com/signup.json');
+    const obj= await data.json();
+    setfbData(obj)
+    
+  }
+console.log(fbData)
+
+  let finalfn=()=>
+  {
+    const a=Object.keys(fbData);
+    a.every((ele)=>{
+      
+      if(fbData[ele].email===userdata.email)
+      {
+          console.log('matched');
+          return false;
+          
+      }
+      else{
+        console.log('not register')
+        return true;
+      }
+    })
+  }
+ 
+ 
+  return (
+    <div className="App">
+      <form onSubmit={handleSubmit}>
+      <input type='text'
+      name='email'
+      onChange={handleChange}/>
+      <input type='password'
+      name='password'
+      onChange={handleChange}/>
+      <button type='submit'>Submit</button>
+      </form>
+      <button onClick={()=>finalfn()}>Final Call</button>
+    </div>
+  );
+}
