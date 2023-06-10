@@ -77,6 +77,6 @@ To deploy this project run
   npm run deploy
 ```
 
-# Author (https://duckduckgo.com )
+ 
 
 
