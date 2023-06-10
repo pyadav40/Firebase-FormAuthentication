@@ -1,9 +1,10 @@
 
 # React Form
+![react+firebase](https://github.com/pyadav40/Firebase-FormAuthentication/assets/109465963/4daa449c-75af-4324-87a3-c9afa4aed16e)
 
 React form with validation using formik and yup, authentication using Google Firebase.
 
-:wrench:  I might update the app, there are few things can be added later  :smiley:
+:wrench:  **I might update the app, there are few things can be added later**  :smiley:
 
 
 ## Demo
@@ -56,7 +57,11 @@ For support, email piyush.yadav5730@gmail.com
 
 ## Tech Stack
 
- React, Formik, Yup, React-Router, Firebase, Material UI
+ :white_check_mark:React <br>
+ :white_check_mark:Formik & Yup<br>
+ :white_check_mark:React-Router<br>
+ :white_check_mark:Firebase<br>
+ :white_check_mark:Material UI
  
 
 
@@ -69,4 +74,7 @@ To deploy this project run
 ```bash
   npm run deploy
 ```
+
+# Author (https://duckduckgo.com )
+
 
