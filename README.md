@@ -9,7 +9,8 @@ React form with validation using formik and yup, authentication using Google Fir
 Insert gif or link to demo
 
 ![signup](https://github.com/pyadav40/Firebase-FormAuthentication/assets/109465963/d5f47819-ed72-48be-938f-e80c8aa58121)
-.png
+![loginPage](https://github.com/pyadav40/Firebase-FormAuthentication/assets/109465963/93c2919e-89aa-43e5-b9fd-16d11c69cceb)
+
 ## Run Locally
 
 Clone the project
