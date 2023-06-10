@@ -3,7 +3,7 @@
 
 React form with validation using formik and yup, authentication using Google Firebase.
 
-:wrench:I might update the app, there are few things can be added later
+:wrench:  I might update the app, there are few things can be added later  :smiley:
 
 
 ## Demo
