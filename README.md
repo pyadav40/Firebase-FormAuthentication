@@ -8,7 +8,8 @@ React form with validation using formik and yup, authentication using Google Fir
 
 Insert gif or link to demo
 
-C:\Users\win10\Desktop/signup.png
+![signup](https://github.com/pyadav40/Firebase-FormAuthentication/assets/109465963/d5f47819-ed72-48be-938f-e80c8aa58121)
+.png
 ## Run Locally
 
 Clone the project
