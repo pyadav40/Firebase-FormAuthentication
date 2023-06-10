@@ -3,7 +3,7 @@
 ![react](https://github.com/pyadav40/Firebase-FormAuthentication/assets/109465963/1bbb8d1b-83b8-42c7-bc8d-fa57f8d9d813)
 
 
-<h1>React form with validation using formik and yup, authentication using Google Firebase.<h1>
+<h3>React form with validation using formik and yup, authentication using Google Firebase.<h3>
 
 :wrench:  **I might update the app, there are few things can be added later**  :smiley:
 
